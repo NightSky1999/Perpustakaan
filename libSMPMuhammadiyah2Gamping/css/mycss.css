@@ -1,0 +1,91 @@
+.textTitle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.banner{
+    background-image: url('../img/background_logo.png');
+    background-size: cover;
+}
+.logo{
+    height: 95px;
+    margin: 5px;
+}
+.login{
+    background-color: #8ecae6;
+}
+.user{
+    background-color: #ffb703;
+}
+.runtext{
+    color: white;
+    background-color: #023047;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.time{
+    background-color: #ffb703;
+}
+.date{
+    background-color: #fb8500;
+}
+
+.sidebar1 {
+margin-left: -12px;
+height: 100vh;
+width: 180px;
+list-style: none;
+background-color: #023047;
+}
+.sidebar1 li a{
+display: block;
+font-weight: bold;
+padding: 23px;
+margin-left: -40px;
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+border-bottom: 1px solid #8ecae6;
+transition: background-color 0.5s;
+}
+/* .sidebar1 a {
+font-weight: bold;
+color: white;
+margin-left: 10px;
+
+text-decoration: none;
+} */
+.sidebar1 li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-tambah{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.bodyBg{
+    background-color: hsl(198, 41%, 79%);
+}
+.bgGrid{
+    background-color: white;
+}
+.admin{
+    background-color: #ffb703;
+    display: block;
+    width: 180px;
+}
+.adminText{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 145px;
+}
+.display-4{
+    font-weight: bold;
+}
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    top: 50px;
+    right: 10px;
+    opacity: 0.4;
+    font-size: 70px;
+}
